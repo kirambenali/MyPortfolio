@@ -1,0 +1,193 @@
+{
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/circle.png",
+        "title": "Chic Circle",
+        "description": "Chic Circle is an innovative mobile application that blends technology and creativity to elevate your fashion experience....",
+        "link": "https://github.com/kirambenali/chic-circle.git"
+      },
+      {
+        "id": "2",
+        "src": "./img/StepWise.jpg",
+        "title": "Step Wise",
+        "description": "StepWise is an innovative educational application designed for children with Down syndrome...."
+      },
+       {
+        "id": "3",
+        "src": "./img/CareWise.jpg",
+        "title": "Care Wise",
+        "description": "CareWise is a complementary mobile application to StepWise, designed for parents and administrators to monitor, support, and highlight the development of children with Down syndrome....."
+      },
+       {
+        "id": "4",
+        "src": "./img/RobotWise.png",
+        "title": "Robot Wise",
+        "description": " Robot Wise is An immersive tablet application that enables children with Down syndrome to interact in real time with a physical robot, JetRacer......"
+      }
+    
+
+    ],
+    "chicCircle": [
+      {
+        "id": "1",
+        "src": "../img/chic.mp4",
+        "title": "Chic Circle",
+        "description": "Chic Circle is an innovative mobile application that blends technology and creativity to elevate your fashion experience. Available on both iOS and Android, this app allows users to shop, style, and showcase their wardrobes powered by AI.",
+        "technologies": [
+          "NestJs",
+          "Kotlin with Jetpack Compose",
+          "SwiftUI & Swift Native",
+          "Firebase",
+          "Gemini AI"
+        ],
+        "features": [
+          {
+            "title": "Shop or Sell 💵",
+            "content": "As a seller, showcase and sell clothes and trendy assembles directly through the app. As a client, browse a marketplace filled with trending clothes and assembles tailored to your preferences."
+          },
+          {
+            "title": "AI-Powered Closet 👚",
+            "content": "Upload clothes to your virtual closet, and our AI, powered by Gemini, automatically identifies: Type of clothing, Mood, Occasions, Weather compatibility."
+          },
+          {
+            "title": "Personalized Outfit Suggestions 🧥",
+            "content": "Based on your mood, weather, and upcoming occasions, Chic Circle’s AI generates trendy, personalized outfits using items from your closet."
+          },
+          {
+            "title": "Outfit Analysis with Camera 🌅",
+            "content": "Snap a photo of your outfit using your device’s camera, and our AI will analyze it. Receive recommendations to enhance your outfit based on the current weather and temperature in your location."
+          },
+          {
+            "title": "Push Notifications 📩",
+            "content": "When a client purchases an item, the seller will receive a notification with: The client's name, The item's name, The proposed price."
+          }
+        ]
+      }
+    ],
+
+     "StepWise": [
+      {
+        "id": "2",
+        "src": "../img/stepWise.mp4",
+        "title": "Step Wise",
+        "description": "StepWise is an innovative educational application designed for children with Down syndrome, aimed at promoting their independence, social integration, and professional readiness through an experience powered by artificial intelligence.",
+        "technologies": [
+          "NestJs",
+          "Flutter",
+          "Speechify",
+          "WebSocket",
+          "TensorFlow / PyTorch",
+          "Gemini AI"
+        ],
+        
+   "features": [
+    {
+      "title": "🧩 Categories Tailored to Children with Down Syndrome",
+      "content": "Our educational categories—like spelling, sports, cooking, and school studies—are adapted to meet the real needs of children with Down Sydrome. Through AI supervision and validation, we help improve pronunciation, breathing, muscle coordination, and autonomy in daily life."
+    },
+    {
+      "title": "🧠 Real-Time AI Agent",
+      "content": "Delivers interactive support using live voice and image trigger."
+    },
+    {
+      "title": "🎤 Continuous Voice Capture",
+      "content": "Uses LiveKit with WebRTC to listen and respond during exercises in real time."
+    },
+    {
+      "title": "🕒 Daily Routines",
+      "content": "ncourages children to learn independence by guiding them through daily routines they can eventually perform on their own"
+    },
+   
+    {
+      "title": "🏅 Badges & Levels",
+      "content": "Motivates progress through a reward system with unlockable badges."
+    }
+  ]
+      }
+    ],
+    "CareWise": [
+      {
+        "id": "3",
+        "src": "../img/CareWise.mp4",
+        "title": "Care Wise",
+        "description": "CareWise is a complementary mobile application to StepWise, designed for parents and administrators to monitor, support, and highlight the development of children with Down syndrome. It provides a comprehensive view of their progress, facilitates communication between parents, and automates access to inclusive professional opportunities.",
+        "technologies": [
+          "NestJs",
+          "Flutter",
+          "N8N Automation",
+          "Web Scrapping"
+        ],
+        
+   
+  "features": [
+    {
+      "title": "🎥 Safety Monitoring with JetRacer Robot",
+      "content": "Parents can monitor their child live at home via a JetRacer camera, with real-time alerts in case of danger or alarming behavior (e.g., signs of distress or suicidal speech)."
+    },
+    {
+      "title": "📊 Progress Dashboard",
+      "content": "Parents can track their child’s achievements in real time ."
+    },
+    {
+      "title": "📰 Social Wall for Parents",
+      "content": "A dedicated social feed where parents share stories,their experience and seek advice"
+    },
+    {
+      "title": "🤖 Job Suggestions via Automation",
+      "content": "Specialized job opportunities for people with Down syndrome are suggested using N8N automation and web scraping."
+    },
+    {
+      "title": "👨‍🏫 Smart Expert Network",
+      "content": "Automatically recommends coaches, therapists, and expert centers based on each child’s needs."
+    }
+    
+  ]
+}
+    ],
+     "RobotWise": [
+      {
+        "id": "4",
+        "src": "../img/VideoEvent.mp4",
+        "title": "Robot Wise",
+        "description": " Robot Wise is An immersive tablet application that enables children with Down syndrome to interact in real time with a physical robot, JetRacer.",
+        "technologies": [
+          "NestJs",
+          "FlutterFlow",
+          "Web RTC",
+          "Gemini 2.0 Flash",
+          "LiveKit AI Agent",
+          "Stream API"
+        ],
+        
+   
+ "features": [
+    {
+      "title": "Remote Robot Control",
+      "content": "Children can control the JetRacer robot remotely through the application."
+    },
+    {
+      "title": "Live Drawing Activity",
+      "content": "Freehand drawing activity that is validated in real-time by an AI agent using LiveKit, supporting the improvement of children's motor skills"
+    },
+    {
+      "title": "AI-Generated Storytelling",
+      "content": "Stories are generated using Gemini 2.0 Flash (text + adapted images), streamed using chunked API, and narrated with Speechify."
+    },
+    {
+      "title": "Explore Mode",
+      "content": "Children can guide the robot to explore real-world objects, enhancing discovery and engagement."
+    },
+    {
+      "title": "Progress Synchronization",
+      "content": "Child's progress and detected talents are synchronized with the global StepWise ecosystem."
+    }
+  ]
+
+}
+    ]
+      }
+    
+
+  
+  
