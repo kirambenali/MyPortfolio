@@ -38,7 +38,7 @@ export default function MyPortfolio (){
 
     >
       <div className="portfolio-section-img">
-        <img src={item.src} alt="placeholder" />
+        <img src={process.env.PUBLIC_URL + "/img/"+ item.src} alt="placeholder" />
       </div>
       <div className="portfolio-section-card-content">
         <div>

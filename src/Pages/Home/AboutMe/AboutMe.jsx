@@ -1,10 +1,11 @@
-import { useState } from "react";
+
 import { FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
 import useScrollAnimation from '../../Animation/useScrollAnimation';
 
 
 export default function AboutMe() {
-  const CV = "/img/CV.pdf";
+  const CV = process.env.PUBLIC_URL + "/img/CV.pdf";
+
 const [ref, isVisible] = useScrollAnimation();
   return (
     <section id="AboutMe"  ref={ref}

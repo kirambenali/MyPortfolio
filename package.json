@@ -1,4 +1,5 @@
 {
+  "homepage": "https://kirambenali.github.io/MyPortfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,13 +11,15 @@
     "@splinetool/runtime": "^1.0.63",
     "clsx": "^2.1.1",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "motion": "^12.23.11",
     "ogl": "^1.0.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.1.3",
+    "react-router": "^7.6.3",
+    "react-router-dom": "^7.6.3",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-toastify": "^11.0.3",
@@ -30,6 +33,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

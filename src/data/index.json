@@ -2,26 +2,26 @@
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/circle.png",
+        "src": "circle.png",
         "title": "Chic Circle",
         "description": "Chic Circle is an innovative mobile application that blends technology and creativity to elevate your fashion experience....",
         "link": "https://github.com/kirambenali/chic-circle.git"
       },
       {
         "id": "2",
-        "src": "./img/StepWise.jpg",
+        "src": "StepWise.jpg",
         "title": "Step Wise",
         "description": "StepWise is an innovative educational application designed for children with Down syndrome...."
       },
        {
         "id": "3",
-        "src": "./img/CareWise.jpg",
+        "src": "CareWise.jpg",
         "title": "Care Wise",
         "description": "CareWise is a complementary mobile application to StepWise, designed for parents and administrators to monitor, support, and highlight the development of children with Down syndrome....."
       },
        {
         "id": "4",
-        "src": "./img/RobotWise.png",
+        "src": "RobotWise.png",
         "title": "Robot Wise",
         "description": " Robot Wise is An immersive tablet application that enables children with Down syndrome to interact in real time with a physical robot, JetRacer......"
       }

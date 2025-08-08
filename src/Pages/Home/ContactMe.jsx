@@ -1,7 +1,7 @@
 
 import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.css';
-import React, { useRef, useState } from 'react';
+import  { useRef, useState } from 'react';
 import useScrollAnimation from '../Animation/useScrollAnimation';
 
 export default function ContactMe() {
