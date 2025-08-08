@@ -125,7 +125,7 @@ Every feature of the application was carefully designed with precision — guide
 
         <SwiperSlide>
             <div className="slide-content">
-          <img src={`${process.env.PUBLIC_URL}/img/docc.jpg`} alt="slide_image" />
+          <img src={`${process.env.PUBLIC_URL}/img/docc.JPG`} alt="slide_image" />
           <p className="slide-caption">We were guided by a psychomotor therapist, who helped us understand the real needs of these children.</p>
         </div>
         </SwiperSlide>
@@ -144,7 +144,7 @@ Every feature of the application was carefully designed with precision — guide
         </SwiperSlide>
         <SwiperSlide>
             <div className="slide-content">
-            <img src={`${process.env.PUBLIC_URL}/img/downn.jpg`} alt="slide_image" />
+            <img src={`${process.env.PUBLIC_URL}/img/downn.JPG`} alt="slide_image" />
           <p className="slide-caption"> Our visit to  the Association Arc En Ciel to understand real daily needs</p>
           </div>
         </SwiperSlide>
