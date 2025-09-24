@@ -1,6 +1,5 @@
 
 import { useRef, useEffect } from "react";
-import LightRays from './LightRays/LightRays';
 import { Link } from 'react-scroll';
 import './StarBorder/StarBorder.css';
 import useScrollAnimation from '../../Animation/useScrollAnimation';

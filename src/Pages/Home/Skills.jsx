@@ -24,7 +24,6 @@ import { RiNotionFill } from "react-icons/ri";
 import { SiPostman } from "react-icons/si";
 import { SiSwagger } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
 import { FiTrello } from "react-icons/fi";
 import { SiJira } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";

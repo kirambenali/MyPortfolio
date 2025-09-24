@@ -35,7 +35,7 @@ const data = [
 
 
 function Automation() {
-   const rowsRef = useRef([]);
+  const rowsRef = useRef([]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -48,23 +48,23 @@ function Automation() {
           }
         });
       },
-      {
-        threshold: 0.6,
-      }
+      { threshold: 0.6 }
     );
 
-   
-    rowsRef.current.forEach((row) => {
+    // Copie de rowsRef.current dans une variable locale
+    const rows = rowsRef.current;
+    rows.forEach((row) => {
       if (row) observer.observe(row);
     });
 
-    
+    // Cleanup avec la même variable locale
     return () => {
-      rowsRef.current.forEach((row) => {
+      rows.forEach((row) => {
         if (row) observer.unobserve(row);
       });
     };
-  }, []);
+  }, []); // pas besoin de dépendances ici
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
