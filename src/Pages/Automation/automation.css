@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1321; 
+  color: #fff;
+}
+
+.scroll-container {
+  height: 200vh;
+  overflow-y: scroll;
+  background: linear-gradient(100deg, #091929 40%, #25486d 100%);
+  scroll-behavior: smooth;
+  padding: 40px;
+}
+
+
+.text-container {
+  flex: 1;
+}
+
+.text-container h2 {
+  font-size: 25px;
+  font-weight: semi-bold;
+  margin-bottom: 15px;
+ color: #a0c4ff;
+ font-family: "Times New Roman", Times, serif;
+}
+
+.text-container p {
+  font-size: 19px;
+  line-height: 1.5;
+  color: #bebebe;
+}
+
+.video-container {
+  flex: 1;
+  height: 250px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.video-container img,
+.video-container video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 90px;
+  margin-left: 99px;
+  gap: 80px; 
+  opacity: 0.3;          
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+
+.row:first-child {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Row devient clair quand IntersectionObserver détecte le scroll */
+.row.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.divider {
+  width: 85%;              
+  margin: 60px 0;         
+  margin-left: 99px;      
+  height: 0.5px;            
+  background-color: #737373; 
+  border-radius: 1px;     
+}

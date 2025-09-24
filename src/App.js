@@ -7,6 +7,8 @@ import ChicCircle from "./Pages/ChicCircle/Chic";
 import StepWise from "./Pages/StepWise/StepWise";
 import CareWise from "./Pages/CareWise/CareWise";
 import RobotWise from './Pages/RobotWise/RobotWise';
+import Workway from './Pages/Workway/Workway';
+import Automation from './Pages/Automation/Automation';
 import PortfolioLayout from './Pages/Animation/PortfolioLayout';
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
             <Route path="/StepWise/:id" element={<StepWise />} />
             <Route path="/CareWise/:id" element={<CareWise />} />
             <Route path="/RobotWise/:id" element={<RobotWise />} />
+            <Route path="/Workway/:id" element={<Workway />} />
+            <Route path="/Automation/:id" element={<Automation />} />
           </Route>
-        </Routes>
+        </Routes> 
       </BrowserRouter>
     </div>
   );

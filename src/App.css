@@ -1,4 +1,6 @@
 /* GLOBAL CSS */
+
+
 body{
     margin : 0;
     font-style: normal;
@@ -496,7 +498,7 @@ body{
  
   font-size: 22px;
   color: var(--titles);
-  margin-bottom: 16px;
+ 
 }
  .date-style {
     font-size: 15px;
@@ -510,7 +512,6 @@ body{
  font-size: 70px;
  line-height: 85px;
 padding-bottom: 20px;
-
   font-family: 'Times New Roman', Times, serif;
   background: linear-gradient(90deg, #FFFFFF 10%, #3D90D7 100%);
   -webkit-background-clip: text;
@@ -565,11 +566,9 @@ padding-bottom: 20px;
   }
 
 
-  .tab-content {
-    padding: 20px;
-    display: block;
-    visibility: visible;
-  }
+
+
+
 .stage-title{
   justify-self:center;
 }
@@ -593,6 +592,10 @@ padding-bottom: 20px;
 .portfolio-section-container {
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
   gap: 20px;
   overflow-x: auto;
   padding: 40px 60px; 
@@ -602,9 +605,29 @@ padding-bottom: 20px;
   box-sizing: border-box;
 
 }
+.portfolio-section-container::-webkit-scrollbar {
+  display: none; 
+}
 
-
-
+.dots-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.dot.active {
+  background: linear-gradient(90deg, #41ccff, #0934a0);
+  transform: scale(1.3);
+  box-shadow: 0 0 8px rgba(61, 144, 215, 0.6);
+}
 .portfolio-section-card {
   display: flex;
   cursor: pointer;
@@ -653,10 +676,10 @@ padding-bottom: 20px;
 }
 
 .portfolio-section-title {
-  font-size: 1.5rem; 
+  font-size: 20px; 
   margin: 0;
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .portfolio-links {
@@ -763,21 +786,18 @@ padding-bottom: 20px;
 .chic-section-title {
   margin-bottom: 40px; 
   font-size: 80px;
-  background: linear-gradient(45deg, #a0c4ff, #70c6e3, #04BBFF, #d9adbb);
+   background: linear-gradient(90deg, #3D90D7 0%, #FFFFFF 50%, #3D90D7 100%);
   background-size: 400% 400%;
-  white-space: nowrap;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradientShift 8s ease infinite;
+  -webkit-text-fill-color: transparent; /* rend visible le dégradé */
   letter-spacing: 2px;
   line-height: 1;
   text-shadow: 0px 15px 17px rgba(0, 0, 0, 0.3);
+  animation: gradientShift 8s ease infinite;
 }
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+
+
+
 .chic-desc {
   margin-bottom: 35px; 
   font-size: 20px;
@@ -2027,14 +2047,14 @@ padding-bottom: 20px;
   }
 }
 
-/* High DPI Displays */
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .nav-hamburger-line {
     border-radius: 1px;
   }
 }
 
-/* Print Styles */
+
 @media print {
   .navbar,
   .btn-github,

@@ -35,6 +35,7 @@ export default function RobotWise ()
                           {data?.RobotWise?.map((item, index) => (
                               <div key={index} className="chic-img-box">
                                <iframe
+                                                 title="RobotWise Demo Video"
   src="https://www.youtube.com/embed/z09CAZsFUl4"
   className="chic-video"
   allow="autoplay; fullscreen; picture-in-picture"

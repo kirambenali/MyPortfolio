@@ -26,7 +26,11 @@ import { SiSwagger } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FiTrello } from "react-icons/fi";
+import { SiJira } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
  import useScrollAnimation from '../Animation/useScrollAnimation';
+ import { SiClickup } from "react-icons/si";
+ import { SiN8N } from "react-icons/si";
 export default function MySkills() {
   const [ref, isVisible] = useScrollAnimation();
   const skillsData = {
@@ -35,6 +39,7 @@ export default function MySkills() {
       { name: 'CSS', icon: <FaCss3Alt size={65}  color='#663399'/> },
       { name: 'JavaScript', icon: <FaNodeJs size={70} color='#F7DF1E'/> },
       { name: 'React', icon: <FaReact size={65} color='#61DAFB'/> },
+      { name: 'NextJs', icon: <TbBrandNextjs size={65} color='#137fddff'/> },
       { name: 'Kotlin', icon: <TbBrandKotlin size={65} color='#7F52FF'/> },
       { name: 'Swift', icon: <FaSwift size={65} color='#F05138'/> },
       { name: 'UIkit', icon: <FaUikit size={65} color='#2396F3'/> },
@@ -60,11 +65,13 @@ export default function MySkills() {
     ],
     tools: [
       { name: 'Docker', icon: <FaDocker size={65}color='#2496ED' /> },
+      { name: 'N8N', icon: <SiN8N size={65}color='#ed2424ff' /> },
       { name: 'Notion', icon: <RiNotionFill size={65}color='#2708a0ff' /> },
+      { name: 'Jira', icon: <SiJira size={65}color='#3794ffff' /> },
       { name: 'Postman', icon: <SiPostman size={65}color='#FF6C37' /> },
       { name: 'Swagger', icon: <SiSwagger size={65} color='#85EA2D'/> },
       { name: 'Github', icon: <FaGithub size={65} color='#3b5bfbff'/> },
-      { name: 'Git', icon: <FaGitAlt size={65} color='#F05032'/> },
+      { name: 'Click Up', icon: <SiClickup size={65} color='#F05032'/> },
       { name: 'Trello', icon: <FiTrello size={65} color='#0052CC'/> },
     ],
   };

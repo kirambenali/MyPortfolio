@@ -35,6 +35,7 @@ export default function CareWise ()
                           {data?.CareWise?.map((item, index) => (
                               <div key={index} className="chic-img-box">
                                                   <iframe
+                                                  title="CareWise Demo Video"
   src="https://www.youtube.com/embed/IB8JReFvSLY"
   className="chic-video"
   allow="autoplay; fullscreen; picture-in-picture"

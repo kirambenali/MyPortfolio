@@ -30,10 +30,9 @@ const [ref, isVisible] = useScrollAnimation();
   ref={ref}
       className={` hero-section section-animation ${isVisible ? 'visible' : ''}`}
 >
-   
-   <LightRays
-    className="custom-rays"
-  />
+    
+
+
  
   <div className="hero-section-content-box">
     <div className="hero-section-content-and-quote">
