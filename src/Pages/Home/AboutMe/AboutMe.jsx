@@ -15,10 +15,8 @@ const [ref, isVisible] = useScrollAnimation();
 
         <p className="about-description">
           Hello!<br/>
-            I am a software engineering student specializing in mobile application development.
-            Passionate about creating innovative and user-friendly apps, I thrive on solving complex problems
-            and transforming ideas into functional digital solutions. My portfolio showcases projects that
-            highlight my skills in designing and building mobile applications with a focus on performance and creativity.
+         I’m Kiram Ben Ali, a third-year Software Engineering student specializing in Artificial Intelligence, intelligent agents, automation, and mobile app development.
+I have experience in designing intuitive applications and intelligent solutions that are performance-oriented and focused on user experience (UX).
         </p>
 
         <div className="aboutme-actions">
